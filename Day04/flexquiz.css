@@ -1,0 +1,42 @@
+.world {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.secondworld {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.minibox {
+  width: 300px;
+  height: 150px;
+}
+
+.poster {
+  background-color: #81ecec;
+}
+.eggblue {
+  background-color: #00cec9;
+}
+.date {
+  background-color: #fab1a0;
+}
+.orangeville {
+  background-color: #e17055;
+}
+
+.tail {
+  background-color: #74b9ff;
+}
+.blue {
+  background-color: #0984e3;
+}
+.glamour {
+  background-color: #ff7675;
+}
+.gong {
+  background-color: #d63031;
+}
