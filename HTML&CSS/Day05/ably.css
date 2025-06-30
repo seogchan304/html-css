@@ -1,0 +1,22 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.boxtwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.name {
+  font-size: 5px;
+  text-align: center;
+}
