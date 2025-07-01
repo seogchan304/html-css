@@ -1,0 +1,85 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.image {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  background-image: url("paris.png");
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.image2 {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  background-image: url("japan.png");
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: aliceblue;
+}
+
+.image3 {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  background-image: url("newyork.png");
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: aliceblue;
+}
+
+.image4 {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  background-image: url("china.png");
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: aliceblue;
+}
+
+.star {
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+
+.paris {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.trip {
+  font-size: 20px;
+}
