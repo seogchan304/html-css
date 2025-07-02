@@ -1,0 +1,11 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: mediumaquamarine;
+}

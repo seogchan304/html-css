@@ -1,0 +1,82 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.nametag {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 9999px;
+}
+
+.kakao {
+  position: relative;
+  background-color: yellow;
+}
+
+.phone {
+  position: relative;
+  background-color: black;
+}
+
+.email {
+  position: relative;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.ri-kakao-talk-fill {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+
+.ri-smartphone-fill {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+  color: white;
+}
+
+.ri-mail-line {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+  color: white;
+}
+
+.kakao > span {
+  position: absolute;
+  font-size: 11px;
+  left: 22%;
+  top: 39%;
+}
+
+.phone > span {
+  position: absolute;
+  font-size: 11px;
+  left: 22%;
+  top: 39%;
+  color: white;
+}
+
+.email > span {
+  position: absolute;
+  font-size: 11px;
+  left: 22%;
+  top: 39%;
+  color: black;
+}

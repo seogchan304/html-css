@@ -1,0 +1,23 @@
+section {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: transparent;
+  color: black;
+  padding: 2px 5px 2px 5px;
+  border: 0px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border-radius: 9999px;
+}
