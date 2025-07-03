@@ -1,0 +1,46 @@
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  align-items: center;
+  position: relative;
+  background-color: lightgrey;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  transition: all 0.2s;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+button {
+  color: white;
+  background-color: #007eff;
+  border: none;
+  border-radius: 9999px;
+  padding: 4px 7px 4px 7px;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: 34%;
+  cursor: pointer;
+}
+
+span {
+  position: absolute;
+  left: 4%;
+  bottom: 25%;
+  z-index: 2;
+}
