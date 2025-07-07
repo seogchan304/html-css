@@ -1,0 +1,100 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  width: fit-content;
+  height: fit-content;
+
+}
+
+.drink {
+  width: fit-content;
+  height: 430px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.drink > span {
+  font-size: 19px;
+}
+
+.cup {
+  width: fit-content;
+  height: 370px;
+    background-color: rgb(255, 231, 16);
+
+
+  transition: 0.01s;
+}
+
+.incup {
+  position: relative;
+
+  z-index: 5;
+}
+
+.incup > img {
+  width: 270px;
+  height: auto;
+  border: 1px solid rgb(214, 214, 214);
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.gle {
+  width: fit-content;
+  height: fit-content;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.allname {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.name {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 22px;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+
+  white-space: nowrap;
+}
+
+.allname > span {
+  text-align: left;
+  display: block;
+  font-size: 15px;
+  margin-top: 20px;
+  line-height: 1.55em;
+
+  position: absolute;
+  top: 100px;
+  left: 15%;
+
+  white-space: nowrap;
+}
+
+.incup > img:hover{
+    opacity: 0.2;
+}

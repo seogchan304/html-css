@@ -1,0 +1,72 @@
+section{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.drink{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.drink > h4{
+    font-size: 19px;
+}
+
+.cup{
+        border: 2px solid rgb(212, 212, 212);
+    text-align: center;
+    position: relative;
+}
+
+.cup > img{
+    width: 280px;
+    height: auto;
+}
+
+.name{
+position: absolute;
+top: 0;
+width: 100%;
+background-color: rgba(255, 187, 0, 0.726);
+bottom: 0;
+
+opacity: 0;
+transition: 0.3s;
+}
+
+.name > h4{
+    font-size: 23px;
+    padding-top: 65px;
+}
+
+.name > span{
+    display: block;
+    text-align: left;
+    line-height: 1.55em;
+
+    padding-top: 35px;
+    padding-left: 40px;
+}
+
+.name:hover{
+    opacity: 1;
+}

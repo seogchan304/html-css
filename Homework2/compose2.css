@@ -1,0 +1,87 @@
+section {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid black;
+  gap: 20px;
+}
+
+.drink {
+    height: 450px;
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.drink > h4{
+    font-size: 18px
+}
+
+.cup {
+  width: 280px;
+  height: 390px;
+  border: 1px solid rgb(201, 201, 201);
+
+  background-position: center;
+  background-image: url("compose1.png");
+  background-size: contain;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.gle {
+    width: 100%;
+height: 100%;
+    position: relative;
+    opacity: 0;
+
+    transition: all 0.25s;
+}
+
+.gle > h4 {
+    width: 100%;
+  position: absolute;
+  font-size: 22px;
+
+  text-decoration: underline;
+  text-underline-offset: 15px;
+
+  margin-top: 65px;
+  z-index: 1;
+}
+
+.gle > span {
+  text-align: left;
+  display: block;
+  line-height: 1.55em;
+  background-color: rgba(255, 219, 41, 0.84);
+
+inset: 0;
+  padding-left: 15%;
+  padding-top: 45%;
+
+  position: absolute;
+  z-index: 0;
+}
+
+.gle:hover{
+    opacity: 1;
+}
