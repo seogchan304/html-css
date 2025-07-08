@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "NoonnuBasicGothicRegular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noon-2410@1.0/NoonnuBasicGothicRegular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.second {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  padding: 50px 50px;
+}
+
+.contant {
+  padding: 50px 50px;
+}
+
+.second > .content > h4 {
+  text-align: center;
+  font-size: 50px;
+  line-height: 1.5em;
+  font-family: NoonnuBasicGothicRegular;
+  color: #757575;
+}
+
+.content > div > h4 {
+  text-align: center;
+  font-size: 50px;
+
+  font-family: NoonnuBasicGothicRegular;
+  color: #757575;
+}
+
+.motto > span {
+  color: black;
+}
+
+.motto {
+  margin: 30px;
+}

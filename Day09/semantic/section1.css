@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "NoonnuBasicGothicRegular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noon-2410@1.0/NoonnuBasicGothicRegular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.first {
+  height: 100vh;
+  background-image: url("fashion.png.jpg");
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first > ::content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.first > .content > h2 {
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  line-height: 1.2;
+  gap: 10px;
+  font-family: NoonnuBasicGothicRegular;
+}

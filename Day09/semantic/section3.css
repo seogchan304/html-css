@@ -1,0 +1,73 @@
+.third {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.fashion {
+  position: relative;
+  text-align: center;
+}
+
+.fashion > img {
+  width: 500px;
+  height: 530px;
+  border-radius: 20px;
+}
+
+.fashion {
+  width: 500px;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  width: 500px;
+  height: 530px;
+  background-image: url("ably2.png.jpg");
+  background-size: cover;
+  position: relative;
+  border-radius: 20px;
+  border: red;
+}
+
+.name > span {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  inset: 0;
+  top: 50%;
+}
+
+.name > h4 {
+  position: absolute;
+  color: white;
+  font-size: 35px;
+  inset: 0;
+  top: 55%;
+}
+
+.name > h2 {
+  position: absolute;
+  padding: 10px 10px;
+  border-radius: 9999px;
+  border: none;
+  align-items: center;
+  color: black;
+  background-color: white;
+  text-align: center;
+}
