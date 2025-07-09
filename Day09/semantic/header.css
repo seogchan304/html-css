@@ -49,7 +49,7 @@ footer {
   right: 50px;
 }
 
-button {
+footer > button {
   background-color: #ff5160;
   border: none;
   border-radius: 20px;

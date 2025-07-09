@@ -1,73 +1,80 @@
 .third {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 200px 0;
 }
 
-.contents {
+.third > .contents {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
+.third > .contents > h6 {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 20px;
+  font-family: "NoonnuBasicGothicRegular";
 }
 
-.fashion {
-  position: relative;
+.third > .contents > h4 {
+  font-size: 32px;
+  color: black;
+  font-weight: bold;
+  line-height: 1.3;
+  font-family: "NoonnuBasicGothicRegular";
+  margin-bottom: 30px;
+}
+
+.third > .contents > .fashion {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.third > .contents > .fashion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.third > .contents > .fashion > .photo {
+  width: 100%;
+  height: 480px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   text-align: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  padding-bottom: 50px;
 }
 
-.fashion > img {
-  width: 500px;
-  height: 530px;
+.third > .contents > .fashion > .photo > span {
+  font-size: 18px;
+}
+
+.third > .contents > .fashion > .photo > div {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.third > .contents > .fashion > .photo > button {
+  background-color: white;
   border-radius: 20px;
+  border: none;
+  padding: 14px 16px;
 }
 
-.fashion {
-  width: 500px;
-  height: 530px;
-  display: flex;
-  flex-direction: column;
-}
-
-.name {
-  width: 500px;
-  height: 530px;
+.firstphoto {
   background-image: url("ably2.png.jpg");
   background-size: cover;
-  position: relative;
-  border-radius: 20px;
-  border: red;
 }
 
-.name > span {
-  position: absolute;
-  color: white;
-  font-size: 20px;
-  inset: 0;
-  top: 50%;
-}
-
-.name > h4 {
-  position: absolute;
-  color: white;
-  font-size: 35px;
-  inset: 0;
-  top: 55%;
-}
-
-.name > h2 {
-  position: absolute;
-  padding: 10px 10px;
-  border-radius: 9999px;
-  border: none;
-  align-items: center;
-  color: black;
-  background-color: white;
-  text-align: center;
+.secondphoto {
+  background-image: url("ably3.png.jpg");
+  background-size: cover;
 }
