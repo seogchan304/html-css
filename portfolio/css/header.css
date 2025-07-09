@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "PFStardustS";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/PFStardustS.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  background-color: rgba(243, 71, 243, 0.384);
+  border: 5px solid rgb(194, 4, 162);
+  padding: 20px 0px;
+  position: fixed;
+}
+
+header > nav {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.list > li {
+  padding: 0px 0px;
+  background-color: rgb(220, 130, 255);
+  border-radius: 10px;
+  padding: 8px 8px;
+  font-family: "PFStardustS";
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+
+  transition: all 0.5s;
+}
+
+.list > .li:hover {
+  background-color: white;
+  color: rgb(7, 82, 105);
+  border: 2px solid rgb(7, 82, 105);
+}
