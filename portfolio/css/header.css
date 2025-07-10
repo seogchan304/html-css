@@ -9,7 +9,7 @@
 header {
   width: 100%;
   top: 0;
-  background-color: rgba(243, 71, 243, 0.384);
+  background-color: rgba(243, 71, 243, 0.721);
   border: 5px solid rgb(194, 4, 162);
   padding: 20px 0px;
   position: fixed;
@@ -34,6 +34,7 @@ header > nav {
 }
 
 .list > li {
+  list-style: none;
   padding: 0px 0px;
   background-color: rgb(220, 130, 255);
   border-radius: 10px;
